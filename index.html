@@ -11,11 +11,10 @@
         <nav>
             <div class="logo">My Portfolio</div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -38,6 +37,104 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to my portfolio! I'm a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development using modern technologies.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+                </div>
+                <div class="about-image">
+                    <img src="WhatsApp_Image_2026-03-18_at_2.01.04_PM-removebg-preview.png" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>UI/UX Designer</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>A responsive web application built with modern technologies.</p>
+                    <button onclick="window.open('https://adare-nine.vercel.app/', '_blank')">View Project</button>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>An interactive dashboard for data visualization.</p>
+                    <button onclick="window.open('https://form2-taupe.vercel.app/', '_blank')">View Project</button>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>A mobile-first e-commerce platform.</p>
+                    <button onclick="window.open('https://cal223-1dgw.vercel.app/', '_blank')">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Let's work together! Feel free to reach out.</p>
+                    <div class="contact-details">
+                        <p>Email: ikechukwud2020@gmail.com</p>
+                        <p>Phone: 09040344877</p>
+                        <p>Location: Lagos, Nigeria</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input name="name" type="text" placeholder="Your Name" required>
+                    <input name="email" type="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 
